@@ -1,0 +1,7 @@
+[package]
+name = "rp_spinlockmutex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rp2040-hal = "0.8.0"
