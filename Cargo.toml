@@ -1,7 +1,12 @@
 [package]
-name = "rp_spinlockmutex"
+name = "rp-spinlockmutex"
 version = "0.1.0"
+authors = ["Sematre"]
 edition = "2021"
+rust-version = "1.62"
+description = "A mutex implementation based on the RP2040 hardware spinlock"
+license = "MIT OR Apache-2.0"
+categories = ["embedded", "no-std"]
 
 [dependencies]
 rp2040-hal = "0.8.0"
